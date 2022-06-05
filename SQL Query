@@ -1,0 +1,720 @@
+CREATE TABLE wine (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	winery TEXT, 
+	wine TEXT,
+	year TEXT,
+	price INTEGER
+);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso la Monja", "Tinto", "2013", 995);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Artadi", "Vina El Pison", "2018", 313.5);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2009", 324.95);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1999", 692.96);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1996", 778.06);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1998", 490);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2010", 349);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1995", 810.89);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2015", 345);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2011", 315);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reversa Especial Edicion", "2016", 514.85);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Pago de Carraovejas", "El Anejon", "2016", 105.15);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Espcial Edicion", "2018", 430);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1970", 925);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Toro Albala", "Don PX Convento Seleccion", "1946", 350);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Pago de Carraovejas", "Cuesta de Las Liebres", "2015", 166.18);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1962", 1620);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2019", 431.36);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas El Nido", "El Nido", "2018", 195.62);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2004", 824.43);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Valdespino", "Toneles Moscatel", "N.V.", 253);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2013", 570.51);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dominio de Pingus", "Pingus", "2016", 1280);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Toro Albala", "Don PX Convento Seleccion", "1931", 244.85);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2010", 719.34);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1979", 815);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Toro Albala", "Don PX Pedrp Ximenez", "1946", 285.86);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Velles Vinyes Priorat", "2004", 1410.26);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2005", 813.96);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2020", 435.75);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Ordonez", "Vatan Arena Tinta de Toro", "2014", 369.05);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "1985", 1182.77);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Toro Albala", "Don PX Convento Seleccion", "1929", 227.95);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas Valduero", "Ribera Del Duero Gran Reserva 12 Anos", "1999", 999); 
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vina Sastre", "Pesus Ribera del Duero", "2007", 360);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso La Monja", "Tinto", "2012", 1190);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dominio de Pingus", "Pingus", "2017", 1150);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso La Monja", "Tinto", "2009", 950);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Velles Vinyes Priorat", "2008", 1021.21);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Sierra Cantabira", "Magico", "2016", 544.5);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso La Monja", "Tinto", "2011", 1295);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Velles Vinyes Priorat", "2017", 992.2);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso La Monja", "Tinto", "2015", 1289.44);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Descendientes de J. Palacios", "La Faraona Bierzo (Corullon)", "2017", 1098.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("La Rioja Alta", "Gran Reserva 890", "1985", 215.34); 
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Velles Vinyes Priorat", "2018", 1094.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", NULL, 423.5);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Valbuena 50", "2010", 239.5);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Valbuena 50", "2014", 175.5);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Valbuena 50", "2006", 194);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2005", 381.15);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2004", 584.43);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2000", 555.2);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2007", 445.28);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Valbuena 50", "2015", 189);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2006", 362.25);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2008", 289);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2003", 325);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Valbuena 50", "2016", 107.57);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Valbuena 50", "2005", 234);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "2002", 500.94);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1991", 698.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1994", 872.47);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2000", 877.85);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1990", 827.94);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Pago de Carraovejas", "Cuesta de Las Liebres", "2014", 113.18);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1989", 679.72);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1987", 787.59);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2017", 480.06);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Pago de Carraovejas", "El Anejon", "2015", 75.1);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas El Nido", "El Nido", "2014", 154.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas El Nido", "El Nido", "2013", 145);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "1996", 290);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Marques de Murrieta", "Castillo Ygay Gran Reserva Especial Blanco", "1986", 795);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas El Nido", "El Nido", "2016", 371.78);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas El Nido", "El Nido", "2008", 134.19);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Viendos de Paganos", "La Nieta", "2015", 82.58);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1981", 873.86);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2007", 774.4);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Emilio Moro", "Malleolus de Valderramiro", "2016", 84.95);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dominio de Pingus", "Pingus", "2001", 940);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1986", 812.63);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Emilio Moro", "Malleolus de Sanchomartin", "2016", 116.54);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dominio de Pingus", "Pingus", "2004", 1500);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dominio de Pingus", "Pingus", "2006", 1190);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas El Nido", "El Nido", "2017", 154.85);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso La Monja", "Alabaster", "2016", 135);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Quinta de la Quietud", "La Mula de la Quietud", "2015", 63.75);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1985", 827.94);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas Mauro", "Terrreus Paraje de Cueva Baja", "2017", 66.07);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodega Contador (Benjamin Romeo)", "Contador Rioja", "2012", 213.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Remirez de Gaunza", "Maria Remirez de Guanza", "2006", 234.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1968", 2087.25);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Viendos de Paganos", "La Nieta", "2018", 89.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1964", 1384.54);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1982", 820.98);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dominio de Pingus", "Pingus", "2015", 1250);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "1995", 1500);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dominio de Pingus", "Pingus", "1999", 1715.18);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1974", 932.3);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Velles Vinyes Priorat", "1998", 1372.14);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas San Roman", "Cartago Paraje de Pozo", "2015", 78.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2012", 660.96);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Pago de Los Capellanes", "Parcela El Picon Tinto", "2009", 154);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Valbuena 50", "2017", 134.89);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Velles Vinyes Priorat", "2000", 1422.96);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodega Numanthia", "Termanthia", "2005", 207.11);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2011", 340.49);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Emilio Moro", "Clon De La Familia", "2010", 317.63);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alto Moncayo", "Aquilon Garnacha", "2011", 108.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicila", "Unico", "1983", 700); 
+INSERT INTO wine (winery, wine, year, price) VALUES ("Toro Albala", "Don PX Convento Seleccion", "1955", 185);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1980", 911.43);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodega Contador (Benjamin Romeo)", "Contador Rioja", "2005", 1150);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1972", 698.95);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodega Numanthia", "Termanthia", "2004", 2814.16);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso La Monja", "Tinto", "2010", 1325);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "Quinon de Valmira", "2015", 527.26);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "1987", 1071.45);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Mas Doix", "1902 Centenary Carignan Priorat", "2015", 299);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Finca Moncloa", "Tintilla de Rota", "2016", 43.13);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico", "1953", 1207.60);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas Roda", "Crision Rioja", "2000", 175);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Vellas Vinyes Priorat", "2015", 1252.35);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas El Nido", "El Nido", "2019", 145.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Mas Doix", "1902 Centenary Cariganan Priorat", "2013", 447.95);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "2006", 813.96);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvaro Palacios", "L'Ermita Velles Vinyes Priorat", "2005", 1410.26);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Martinet", "Cami Pesseroles", "2006", 182.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Recaredo", "Turo d'en Mota", "2007", 99);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vega Sicilia", "Unico Reserva Especial Edicion", "1986", 1113.2);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Clos Erasmus", "Priorat", "2007", 654.31);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Pago de Los Capellanes", "Parcela El Picon Tinto", "2016", 134.26);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Barbadillo", "Reliquia Palo Cortado Sherry", NULL, 380);
+INSERT INTO wine (winery, wine, year, price) VALUES ("La Rioja Alta", "Gran Reserva 890", "1982", 292.09);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Gonzalez-Byass", "Anda Palo Cortado 1987", "1987", 400.85);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Clos Erasmus", "Daphne Glorian Red", "2007", 202.01);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Toro Albala", "Don PX Pedro Ximenez", "1955", 250);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vinedos de Paganos", "La Nieta", "2019", 88.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas Amaren", "El Regollar", "2016", 77.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Toro Albala", "Don PX Convento Seleccion", "1958", 191.61);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Teso La Monja", "Alabaster", "2018", 123.89);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Alvear", "Abuelo Diego Palo Cortado", NULL, 114.28);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Equipo Navazos", "La Bota 78 de Oloroso", NULL, 95.57);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Morca", "Touran", "2018", 93.95);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Territotio Luthier", "Luthier Gran Reserva", "2012", 248);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Artadi", "Vina El Pison", "1995", 397);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Rafael Palacios", "Sorte O Soro Val do Bibel", "2019", 194.86);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Recaredo", "Reserva Particular de Recardo Brut Nature", "2011", 65.05);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Bodegas Mauro", "Terreus Paraje de Cueva Baja", "2019", 86.9);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vina Sastre", "Pesus Ribera del Duero", "2004", 472.5);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Terra Remota", "Usted", "2010", 379);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Dehesa de Los Canonigos", "Gran Reserva", "2001", 185.15);
+INSERT INTO wine (winery, wine, year, price) VALUES ("Vina Sastre", "Regina Vides Ribera del Duero", "1998", 94.2);
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE rating (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	wine_id INTEGER,
+	rating INTEGER,
+	num_reviews INTEGER
+);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (1, 4.9, 58);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (2, 4.9, 31);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (3, 4.8, 1793);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (4, 4.8, 1705);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (5, 4.8, 1309);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (6, 4.8, 1209);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (7, 4.8, 1201);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (8, 4.8, 926);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (9, 4.8, 643);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (10, 4.8, 630);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (11, 4.8, 591);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (12, 4.8, 454);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (13, 4.8, 438);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (14, 4.8, 417);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (15, 4.8, 398);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (16, 4.8, 372);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (17, 4.8, 295);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (18, 4.8, 250);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (19, 4.8, 217);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (20, 4.8, 211);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (21, 4.8, 174);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (22, 4.8, 172);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (23, 4.8, 145);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (24, 4.8, 139);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (25, 4.8, 125);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (26, 4.8, 118);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (27, 4.8, 103);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (28, 4.8, 87);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (29, 4.8, 87);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (30, 4.8, 84);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (31, 4.8, 79);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (32, 4.8, 70);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (33, 4.8, 69);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (34, 4.8, 68);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (35, 4.8, 68);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (36, 4.8, 56);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (37, 4.8, 52);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (38, 4.8, 50);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (39, 4.8, 40);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (40, 4.8, 40);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (41, 4.8, 32);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (42, 4.8, 31);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (43, 4.8, 28);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (44, 4.8, 26);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (45, 4.8, 26);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (46, 4.8, 26);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (47, 4.7, 12421); 
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (48, 4.7, 5266);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (49, 4.7, 4350);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (50, 4.7, 3929);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (51, 4.7, 3437);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (52, 4.7, 3164);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (53, 4.7, 3127);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (54, 4.7, 2935);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (55, 4.7, 2826);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (56, 4.7, 2765);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (57, 4.7, 2480);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (58, 4.7, 2419);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (59, 4.7, 2177);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (60, 4.7, 1892);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (61, 4.7, 1199);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (62, 4.7, 1141);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (63, 4.7, 940);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (64, 4.7, 935);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (65, 4.7, 690);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (66, 4.7, 685);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (67, 4.7, 675);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (68, 4.7, 593);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (69, 4.7, 560);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (70, 4.7, 543);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (71, 4.7, 511);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (72, 4.7, 476);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (73, 4.7, 442);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (74, 4.7, 425);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (75, 4.7, 393);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (76, 4.7, 347);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (77, 4.7, 312);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (78, 4.7, 308);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (79, 4.7, 303);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (80, 4.7, 300);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (81, 4.7, 295);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (82, 4.7, 292);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (83, 4.7, 291);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (84, 4.7, 285);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (85, 4.7, 280);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (86, 4.7, 268);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (87, 4.7, 264);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (88, 4.7, 256);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (89, 4.7, 254);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (90, 4.7, 251);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (91, 4.7, 243);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (92, 4.7, 240);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (93, 4.7, 225);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (94, 4.7, 220);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (95, 4.7, 214);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (96, 4.7, 205);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (97, 4.7, 203);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (98, 4.7, 196);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (99, 4.7, 184);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (100, 4.7, 173);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (101, 4.7, 171);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (102, 4.7, 137); 
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (103, 4.7, 136);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (104, 4.7, 134);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (105, 4.7, 133);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (106, 4.7, 132);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (107, 4.7, 131);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (108, 4.7, 131);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (109, 4.7, 127);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (110, 4.7, 123);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (111, 4.7, 118);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (112, 4.7, 117);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (113, 4.7, 116);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (114, 4.7, 112);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (115, 4.7, 110);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (116, 4.7, 108);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (117, 4.7, 102);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (118, 4.7, 102);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (119, 4.7, 100);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (120, 4.7, 94);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (121, 4.7, 92);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (122, 4.7, 89);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (123, 4.7, 87);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (124, 4.7, 82);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (125, 4.7, 80);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (126, 4.7, 74);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (127, 4.7, 72);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (128, 4.7, 67);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (129, 4.7, 65);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (130, 4.7, 64);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (131, 4.7, 63);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (132, 4.7, 60);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (133, 4.7, 59);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (134, 4.7, 58);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (135, 4.7, 57);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (136, 4.7, 53);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (137, 4.7, 51);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (138, 4.7, 50);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (139, 4.7, 49);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (140, 4.7, 49);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (141, 4.7, 47); 
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (142, 4.7, 45);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (143, 4.7, 42);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (144, 4.7, 41);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (145, 4.7, 41);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (146, 4.7, 40);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (147, 4.7, 39);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (148, 4.7, 37);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (149, 4.7, 35);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (150, 4.7, 33);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (151, 4.7, 32);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (152, 4.7, 31);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (153, 4.7, 31);
+INSERT INTO rating (wine_id, rating, num_reviews) VALUES (154, 4.7, 30);
+
+
+
+
+
+
+
+CREATE TABLE detail (
+
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	wine_id INTEGER,
+	region TEXT,
+	type TEXT,
+	body INTEGER,
+	acidity INTEGER
+);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (1, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (2, "Vino de Espana", " Tempranillo", 4, 2);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (3, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (4, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (5, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (6, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (7, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (8, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (9, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (10, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (11, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (12, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (13, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (14, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (15, "Montilla-Moriles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (16, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (17, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (18, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (19, "Jumilla", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (20, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (21, "Jerez-Xeres-Sherry", "Sherry", 4, 3); 
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (22, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (23, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (24, "Montilla-Moriles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (25, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (26, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (27, "Montilla-Moriles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (28, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (29, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (30, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (31, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (32, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (33, "Montilla-Moriles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (34, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (35, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (36, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (37, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (38, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (39, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (40, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (41, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (42, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (43, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (44, "Bierzo", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (45, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (46, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (47, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (48, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (49, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (50, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (51, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (52, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (53, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (54, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (55, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (56, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (57, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (58, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (59, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (60, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (61, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (62, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (63, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (64, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (65, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (66, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (67, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (68, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (69, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (70, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (71, "Jumilia", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (72, "Jumilia", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (73, "Ribera del Duero", "Ribera del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (74, "Rioja", "Rioja White", 3, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (75, "Jumilia", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (76, "Jumilia", "Red", 4, 3); 
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (77, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (78, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (79, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (80, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (81, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (82, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (83, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (84, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (85, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (86, "Jumilia", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (87, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (88, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (89, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (90, "Castilla y Leon", "Tempranillo", 4, 2);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (91, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (92, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (93, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (94, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (95, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (96, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (97, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (98, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (99, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (100, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (101, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (102, "Toto", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (103, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (104, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (105, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (106, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (107, "Toto", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (108, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (109, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (110, "Compo de Borja", "Grenache", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (111, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (112, "Montilla-Moriiles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (113, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (114, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (115, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (116, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (117, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (118, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (119, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (120, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (121, "Cadiz", "NA", NULL, NULL);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (122, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (123, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (124, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (125, "Jumilla", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (126, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (127, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (128, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (129, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (130, "Cava", "Cava", 2, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (131, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (132, "Priorato", "Priorat Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (133, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (134, "Jerez Palo Cortado", "Sherry", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (135, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (136, "Jerez Palo Cortado", "Sherry", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (137, "Priorato", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (138, "Montilla-Moriles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (139, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (140, "Rioja", "Rioja Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (141, "Montilla-Moriles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (142, "Toro", "Toro Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (143, "Montilla-Moriles", "Pedro Ximenez", 5, 1);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (144, "Manzanilla", "Sherry", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (145, "Campo de Borja", "Grenache", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (146, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (147, "Vino de Espana", "Tempranillo", 4, 2);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (148, "Valdeorras", "NULL", NULL, NULL);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (149, "Cava", "Cava", 2, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (150, "Castilla y Leon", "Tempranillo", 4, 2);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (151, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (152, "Emporda", "Red", 4, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (153, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+INSERT INTO detail (wine_id, region, type, body, acidity) VALUES (154, "Ribera del Duero", "Ribera Del Duero Red", 5, 3);
+
+
+
+
+------------------------------Queries---------------------------------
+
+/*I first want to see what wines are made and offered by each winery in this data set */
+
+SELECT 
+    DISTINCT winery 
+FROM 
+    wine
+GROUP BY 
+	winery;
+
+/*Now i want to see when in time did these wines get made as some are given thier higher
+price depending on the season of how the wine came to be */
+
+SELECT
+    wine,
+    year
+FROM 
+    wine;
+
+/* I wanted to select each winery and the specific wine they produce along with 
+the price they sell it at*/
+
+SELECT
+    DISTINCT winery,
+    wine,
+    price
+FROM 
+    wine
+ORDER BY price DESC;
+
+/*I want to show the price each winery charges and the ratings that are given to them regarding
+the wine they produce seing if there is a correlation if higher price wine means better ratings*/
+
+SELECT 
+    w.winery,
+    w.wine,
+    w.year,
+    w.price,
+    r.rating
+FROM 
+    wine AS w
+LEFT JOIN 
+    rating as r
+ON
+    w.id=r.wine_id
+ORDER BY 
+	w.year DESC;
+
+/* After showing the ratings based on price from the wine and winery. I want to show the number
+of reviews that each wine recieved seeing how price affects the number of reviews*/
+
+SELECT
+    w.winery,
+    w.wine,
+    w.price,
+    r.num_reviews
+FROM
+    wine AS w
+INNER JOIN
+    rating AS r
+ON 
+    w.id=r.wine_id
+ORDER BY 
+    r.num_reviews DESC;
+
+/* With this query it shows the rating, number of reviews and price in a clear picture that is ordered by rating
+to specificlly show that a higher price doesn't neccesarly mean better ratings and number of reviews */
+
+SELECT 
+    w.wine,
+    r.rating,
+    r.num_reviews AS reviews,
+    w.price
+FROM 
+    wine AS w
+INNER JOIN
+    rating AS r
+ON 
+    w.id=r.wine_id
+ORDER BY 
+    r.rating;
+
+/* I wanted to see if there is a correlation between where a wine was produced and its price.
+Does a specific area spawn a higher price wine along with its details */
+
+SELECT 
+    w.price,
+    d.region,
+    d.type,
+    d.body,
+    d.acidity
+FROM 
+    wine AS w
+INNER JOIN 
+    detail as d
+ON
+    w.id=d.wine_id
+ORDER BY 
+    w.price;
+
+/* We see the ratings and number of reviews each wine has recieved along with the details 
+answering the question which region in Spain offers the highest rated wine and the most popular one as well */ 
+
+SELECT
+    w.wine,
+    r.rating,
+    r.num_reviews,
+    d.region,
+    d.type,
+    d.body,
+    d.acidity
+FROM
+    wine AS w
+INNER JOIN 
+    rating AS r
+ON
+    w.id=r.wine_id
+INNER JOIN
+    detail as d
+ON
+    w.id=d.wine_id;
+
+/*Here we see a count of all the wine seperated by a scale for its body.
+ Body is the richness in the mouth 1 the least 5 the most. */ 
+
+
+SELECT 
+    COUNT(body),
+CASE
+    WHEN body = 5 THEN "rich"
+    WHEN body = 4 THEN "higher than normal"
+    WHEN body = 3 THEN "normal"
+    WHEN body = 2 THEN "below normal"
+    WHEN body = 1 THEN "poor"
+    ELSE "n/a"
+END AS scale
+FROM detail
+GROUP BY
+    body;
+
+/* Here we see another count of all the wine seperated by a scale for its acidity.
+Acidity is a pucker of it / tartness, what makes you want more. 1 is the least
+5 is the most. */
+
+SELECT 
+    COUNT(acidity),
+CASE
+    WHEN acidity = 3 THEN "tarty"
+    WHEN acidity = 2 THEN "normal"
+    WHEN acidity = 1 THEN "poor"
+    ELSE "n/a"
+END AS scale
+FROM detail
+GROUP BY
+    acidity;
+
+/* I wanted to show in this query rounding up and down the price of the
+wine in this dataset with two columns */
+
+SELECT 
+	wine,
+	price,
+	ceil(price) AS "ceil",
+	floor(price) AS "floor"
+FROM
+	wine;
+
+/* I used the function truncate to use only 1 decimal point for a simpler
+price point */
+
+SELECT 
+	wine,
+	price,
+	truncate(price, 1)
+FROM
+	wine;
+
+/* The top 10 most expensive wines in Spain in this dataset */
+
+SELECT 
+    winery,
+    wine,
+    price
+FROM
+    wine
+ORDER BY 
+    price DESC
+LIMIT 10
+
+/* The cheapest wine in Spain in this dataset */
+
+
+SELECT 
+    winery,
+    wine,
+    price
+FROM
+    wine
+ORDER BY 
+    price ASC
+LIMIT 10 
+
+
+
+
+
+
+---------------------------Important Infor-----------------------------
+
+Body is the richness in the mouth 1 the least 5 the most. 
+
+Acidity is a pucker of it / tartness, what makes you want more. 1 is the least
+5 is the most.
